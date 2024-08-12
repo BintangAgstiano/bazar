@@ -142,7 +142,7 @@ html {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-image: url('ayam-kampus.png');
-    background-position-y: -140px;
+    background-position-y: -80px;
     position: relative;
     background-size: cover;
 }
@@ -154,7 +154,6 @@ html {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-image: url('es-lemon.jpg');
-    background-position-y: -170px;
     position: relative;
     background-size: cover;
 }
