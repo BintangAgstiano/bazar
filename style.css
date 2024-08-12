@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Nunito,wght@1,400;1,500&family=Overpass&family=Poppins:ital,wght@0,600;0,700;0,800;1,300;1,600;1,800&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito,wght@0,600;0,700;0,800;1,300;1,600;1,800&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Nunito:ital,wght@1,400;1,500&family=Overpass&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300;1,600;1,800&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+#section1 {
+    width: 100%;
+    height: max-content;
+    background-color: #241c1a;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    max-width: 1520px;
+    background-color: #241c1a;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    z-index: 9999;
+}
+
+.logo {
+    display: flex;
+    width: max-content;
+    /* background-color: red; */
+    margin-left: 5%;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+
+.judul {
+    font-family: poppins;
+    margin-top: 6px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.judulSpan {
+    font-family: poppins;
+    margin-top: 6px;
+    color: rgb(206, 140, 114);
+    font-weight: bold;
+}
+
+#section2 {
+    width: 100%;
+    height: max-content;
+    background-color: #201b1b;
+    display: flex;
+    justify-content: center;
+}
+
+.content2 {
+    width: 100%;
+    min-height: 70px;
+    max-width: 1520px;
+    height: max-content;
+    overflow: hidden;
+    background-color: #201b1b;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.daftar-menu-kami {
+    color: white;
+    font-family: poppins;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.daftar-menu-kami span {
+    color: rgb(206, 140, 114);
+}
+
+.col-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2px;
+    background-color: transparent;
+    padding: 0 80px;
+    margin-top: 40px;
+}
+
+.line {
+    width: 46%;
+    height: 3px;
+    background-color: white;
+}
+
+.col-card {
+    width: 100%;
+    height: max-content;
+    min-height: 13px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 80px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-card {
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('ayam-kampus.png');
+    background-position-y: -140px;
+    position: relative;
+    background-size: cover;
+}
+
+.header-card2 {
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('es-lemon.jpg');
+    background-position-y: -170px;
+    position: relative;
+    background-size: cover;
+}
+
+.footer-card {
+    width: 100%;
+    height: 35%;
+    background-color: #2B2323;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.circle1 {
+    width: 35px;
+    height: 35px;
+    background-color: #201B1B;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+}
+
+.circle2 {
+    width: 35px;
+    height: 35px;
+    background-color: #201B1B;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+.nama-produk {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: BOLD;
+    font-family: poppins;
+}
+
+.nama-produk span {
+    color: rgb(206, 140, 114);
+}
+
+.footer2 {
+    padding-left: 20px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#pesanan1 {
+    width: 80%;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    outline: 2px solid white;
+}
+
+#pesanan2 {
+    width: 80%;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    outline: 2px solid white;
+}
+
+.plus {
+    width: 30px;
+    height: 29px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.harga {
+    width: 50px;
+    height: 50px;
+    background-color: #50403B;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins;
+}
+
+.pesan-sekarang {
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    padding-left: 80px;
+    margin-top: 80px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.pesan-sekarang span {
+    color: rgb(206, 140, 114);
+}
+
+.col-info {
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 360px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+}
+
+.circle4 {
+    width: 30px;
+    height: 30px;
+    background-color: #201B1B;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+}
+
+.circle5 {
+    width: 30px;
+    height: 30px;
+    background-color: #201B1B;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+
+.circle6 {
+    width: 30px;
+    height: 30px;
+    background-color: #201B1B;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    bottom: -20px;
+}
+
+.circle7 {
+    width: 30px;
+    height: 30px;
+    background-color: #201B1B;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.containerForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.containerForm form input {
+    border: none;
+    padding: 15px 19px;
+    margin-top: 3%;
+    width: 100%;
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    color: #202020;
+    box-shadow: 1px 1px 1px 1px rgb(126, 87, 71);
+    font-size: 1rem;
+    font-family: poppins;
+}
+
+.containerForm form select {
+    border: none;
+    padding: 15px 15px;
+    margin-top: 3%;
+    width: 100%;
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    color: #202020;
+    box-shadow: 1px 1px 1px 1px rgb(126, 87, 71);
+    font-size: 1rem;
+    font-family: poppins;
+}
+
+.containerForm form input::placeholder {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.containerForm form input:valid {
+    color: rgb(0, 0, 0);
+}
+
+.containerForm form form button {
+    margin-top: 6%;
+    border: none;
+    padding: 2% 2%;
+    background-color: #ff7e15;
+    outline: none;
+    border-radius: 3px;
+    color: #ffffff;
+    width: 50%;
+    font-size: 1vw;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.contentHal6 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    width: 50%;
+}
+
+.pesan {
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color: #725050;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-family: poppins;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.col-btn-pesan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8%;
+}
+
+.tanggal {
+    font-size: 2rem;
+    margin-left: 25px;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(206, 140, 114);
+}
+
+@media(max-width:734px) {
+    .col-card {
+        width: 100%;
+        height: max-content;
+        min-height: 13px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .card {
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .col-line{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 2px;
+        background-color: transparent;
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+    .daftar-menu-kami {
+        color: white;
+        font-family: poppins;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .contentHal6 {
+        flex-direction: column-reverse;
+
+    }
+    .pesan-sekarang {
+        font-size: 1.6rem;
+        color: white;
+        width: 100%;
+        padding-left: 20px;
+        margin-top: 80px;
+        
+        font-family: poppins;
+        font-weight: bold;
+    }
+    .containerForm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .containerForm form{
+        gap: 10px;
+    }
+    .map{
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:734px) and (max-width:1342px) {
+    .pesan-sekarang {
+        font-size: 1.6rem;
+        color: white;
+        width: 100%;
+        padding-left: 40px;
+        margin-top: 80px;
+        
+        font-family: poppins;
+        font-weight: bold;
+    }
+    .col-card {
+        width: 100%;
+        height: max-content;
+        min-height: 13px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}

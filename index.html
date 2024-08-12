@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33886cee1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="section1">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="30" draggable="false">
+                <div class="judul">KEDAI <span class="judulSpan"> WAREG</span></div>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="content2">
+            <div class="daftar-menu-kami"><span>DAFTAR MENU </span>KAMI</div>
+            <div class="col-line">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="col-card">
+                <div class="card">
+                    <div class="header-card">
+                        <div class="harga">10K</div>
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="nama-produk">AYAM <span>KAMPUS</span></div>
+                        <div class="footer2">
+                            <input id="pesanan1" class="input-pesanan" readonly type="number" value="0">
+                            <button class="plus" id="plus1">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header-card2">
+                        <div class="harga">5K</div>
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="nama-produk">ES LEMON <span>MARJAN</span></div>
+                        <div class="footer2">
+                            <input id="pesanan2" readonly class="input-pesanan" type="number" value="0">
+                            <button class="plus" id="plus2">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pesan-sekarang"><span>PESAN </span>SEKARANG</div>
+
+            <div class="contentHal6">
+                <div class="containerForm">
+                    <form onsubmit="SendMessage()" action="" autocomplete="off">
+                        <input type="text" placeholder="Name" required id="name">
+                        <select name="jurusan" id="jurusan" required>
+                            <option value="" selected hidden>Pilih Jurusan</option>
+                            <option value="Rekayasa Perangkat Lunak (RPL)">Rekayasa Perangkat Lunak (RPL)</option>
+                            <option value="Teknik Komputer Jaringan (TKJ)">Teknik Komputer Jaringan (TKJ)</option>
+                            <option value="Desain Komunikasi visual (DKV)">Desain Komunikasi visual (DKV)</option>
+                            <option value="Produksi Siaran Program Pertelevisian (PSPTV)">Produksi Siaran Program
+                                Pertelevisian (PSPTV)</option>
+                            <option value="Layanan Perbankan (LP)">Layanan Perbankan (LP)</option>
+                            <option value="Akuntansi (AK)">Akuntansi (AK)</option>
+                            <option value="Manajement Perkatoran (MP)">Manajement Perkatoran (MP)</option>
+                            <option value="Bisnis Daring dan Pemasaran (BDP)">Bisnis Daring dan Pemasaran (BDP)</option>
+                            <option value="Guru SMAKENSA">Guru SMAKENSA</option>
+                            <option value="Orang Luar">Orang Luar</option>
+                        </select>
+                        <select name="kelas" id="kelas" required>
+                            <option value="" selected hidden>Pilih Kelas</option>
+                            <option value="X">X</option>
+                            <option value="XI">XI</option>
+                            <option value="XII">XII</option>
+                            <option value="Guru SMAKENSA">Guru SMAKENSA</option>
+                            <option value="Orang Luar">Orang Luar</option>
+                        </select>
+                        <input type="text-area" placeholder="Catatan" id="textarea" value="" required>
+                        <button type="submit" id="pesan" class="pesan">Pesan sekarang</button>
+                    </form>
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.8567050313304!2d113.8360619735614!3d-7.9176392788142875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6dcb914a78cff%3A0xc529d84253821bd1!2sSMKN%201%20Bondowoso!5e1!3m2!1sid!2sid!4v1706923267324!5m2!1sid!2sid"
+                        width="100%" height="100%"
+                        style="border:2px solid  rgb(126, 87, 71); border-radius: 10px; margin-left: 1%;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
